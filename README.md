@@ -8,13 +8,17 @@ Here is a financial factor, we should rank() the price of stocks in the sample t
 
 
 ### Network Structure
-
+![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/5.png)
 
 ### Input X and Output Y
-
-
+![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/1.png)
+![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/2.png)
 
 ### Experiment Result
+**Valid Gradient Descent**
+![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/3.png)
+**Prediction and Real**
+![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/4.png)
 This result can be much better if you train it with GPU. I show the result on my laptop, thus, it hasn't got enough training. However, as you can see, our method sucessfully learns the rank() operator. This framework can help you learn the relationship between different stocks. If you public a report or an article by using it, I will be really glad. If it's helpful, please give me a star, thanks.
 
 
