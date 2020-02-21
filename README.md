@@ -8,6 +8,13 @@ Here is a financial factor, we should rank() the price of stocks in the sample t
 
 
 ### Network Structure
+Main.py --You can run it to train the network and test the data.
+Data_processing.py --Built the figure data
+Querry.py --a sub function for Data_processing, here, you can put in a formula, which produces x and y
+Lenet.py --The neural network model structure
+hyper_parameters.py --all the hyper-parameters
+
+**Lenet (A kind of CNN network structure)**
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/5.png)
 
 ### Input X and Output Y
@@ -19,9 +26,4 @@ Here is a financial factor, we should rank() the price of stocks in the sample t
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/3.png)
 **Prediction and Real**
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/4.png)
-This result can be much better if you train it with GPU. I show the result on my laptop, thus, it hasn't got enough training. However, as you can see, our method sucessfully learns the rank() operator. This framework can help you learn the relationship between different stocks. If you public a report or an article by using it, I will be really glad. If it's helpful, please give me a star, thanks.
-
-
-
-
-
+This result can be much better if you train it with GPU. I show the result on my laptop, thus, it hasn't got enough training. However, as you can see, our method sucessfully learns the rank() operator. This framework can help you learn the relationship between different stocks. **If it's helpful, please give me a star, thanks.**
