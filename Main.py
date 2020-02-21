@@ -1,4 +1,4 @@
-from lenet import LENET
+from Lenet import LENET
 from datetime import datetime
 import time
 from Data_processing import *
