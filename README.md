@@ -9,9 +9,13 @@ Here is a financial factor, we should rank() the price of stocks in the sample t
 
 ### Network Structure
 Main.py --You can run it to train the network and test the data.
+
 Data_processing.py --Built the figure data
+
 Querry.py --a sub function for Data_processing, here, you can put in a formula, which produces x and y
+
 Lenet.py --The neural network model structure
+
 hyper_parameters.py --all the hyper-parameters
 
 **Lenet (A kind of CNN network structure)**
