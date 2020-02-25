@@ -22,7 +22,7 @@ Querry.py --a sub function for Data_processing, here, you can put in a formula, 
 
 --------------------------------------
 
-Lenet.py --The neural network model structure
+Lenet.py --The neural network model structure (Tensorflow 1.3)
 
 --------------------------------------
 
