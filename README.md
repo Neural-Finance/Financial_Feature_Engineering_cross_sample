@@ -30,12 +30,12 @@ hyper_parameters.py --all the hyper-parameters
 
 --------------------------------------
 
-**Lenet (A kind of CNN network structure)**
-![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/5.png)
-
 ### Input X and Output Y
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/1.png)
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/2.png)
+
+**Lenet (A kind of CNN network structure)**
+![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/5.png)
 
 ### Experiment Result
 
