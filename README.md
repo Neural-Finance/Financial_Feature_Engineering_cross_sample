@@ -8,27 +8,25 @@ If we should rank() the price of stocks in the sample trading day. In order to l
 
 
 ### Network Structure
---------------------------------------
-
+```
 Main.py --You can run it to train the network and test the data.
+```
 
---------------------------------------
-
+```
 Data_processing.py --Built the figure data
+```
 
---------------------------------------
-
+```
 Querry.py --a sub function for Data_processing, here, you can put in a formula, which produces x and y
+```
 
---------------------------------------
-
+```
 Lenet.py --The neural network model structure (Tensorflow 1.3)
+```
 
---------------------------------------
-
+```
 hyper_parameters.py --all the hyper-parameters
-
---------------------------------------
+```
 
 ### Input X and Output Y
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/1.png)
