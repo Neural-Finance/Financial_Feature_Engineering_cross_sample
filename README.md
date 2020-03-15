@@ -34,7 +34,7 @@ hyper_parameters.py --all the hyper-parameters
 
 **Lenet (A kind of CNN network structure)**
 
-I want to mention that, sometimes, 1*m kernels will be more helpful in this task, because it's more like a time series operation.
+I want to mention that, sometimes, 1*m kernels will be more helpful in this task, because it's more like a time series operation. And the second point is that, I know GNN is very hot nowadays, however, you should know the relationship between different stocks. If you are pretty sure about it, then you should use GNN here. If you want to freely learn their relationship, both in time series or cross section relationship, then the tradtional CNN will be a better choice.
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/5.png)
 
 ### Experiment Result
