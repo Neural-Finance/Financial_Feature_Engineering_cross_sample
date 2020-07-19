@@ -9,7 +9,7 @@ But there are two differences. 1.If you have a good initialization of different 
 If we should rank() the price of stocks in the sample trading day. In order to let the neural network learn this operator, we have to let sample1 see the features belong to sample2. As metioned above, the traditional structure can't see the features belong to other sample. Thus, we should put all sample's data into one picture, and let it serves as X. The output should be all sample's value, which is Pred_Y. And the real factor value array should be Y. The mean squared error of Y and pred_Y, severs as loss function.
 
 
-### Network Structure
+### Project Structure
 ```
 Main.py --You can run it to train the network and test the data.
 ```
@@ -29,6 +29,8 @@ Lenet.py --The neural network model structure (Tensorflow 1.3)
 ```
 hyper_parameters.py --all the hyper-parameters
 ```
+
+![Image text](https://github.com/Neural-Finance/Financial_Feature_Engineering_cross_sample/blob/master/fig/structure.PNG)
 
 ### Input X and Output Y
 ![Image text](https://github.com/Neural-Finance/Cross_sample_financial_feature_engineering/blob/master/fig/1.png)
